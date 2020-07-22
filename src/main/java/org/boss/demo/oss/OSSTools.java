@@ -1,8 +1,7 @@
-package org.boss.demo.common_oss;
+package org.boss.demo.oss;
 
 import com.aliyun.oss.ClientException;
 import com.aliyun.oss.OSS;
-import com.aliyun.oss.OSSClientBuilder;
 import com.aliyun.oss.OSSException;
 import lombok.extern.slf4j.Slf4j;
 

@@ -3,10 +3,8 @@ package org.boss.demo.thread;
 import com.aliyun.oss.*;
 import com.aliyun.oss.model.*;
 import lombok.extern.slf4j.Slf4j;
-import org.boss.demo.common_oss.OSSTools;
-import org.boss.demo.service.imp.FileOSSServiceImpl;
+import org.boss.demo.oss.OSSTools;
 
-import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -17,7 +15,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.TimeUnit;
 
 @Slf4j

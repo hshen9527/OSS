@@ -1,15 +1,11 @@
 package org.boss.demo.service.imp;
 
 import com.aliyun.oss.OSS;
-import com.aliyun.oss.OSSBuilder;
 import com.aliyun.oss.OSSClientBuilder;
-import com.aliyun.oss.model.GetObjectRequest;
 import com.aliyun.oss.model.OSSObject;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.tomcat.jni.OS;
-import org.boss.demo.common_oss.OSSTools;
+import org.boss.demo.oss.OSSTools;
 import org.boss.demo.service.FileOSSService;
-import org.boss.demo.service.OSSService;
 import org.springframework.stereotype.Service;
 
 import java.io.File;

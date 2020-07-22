@@ -2,13 +2,10 @@ package org.boss.demo.thread;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
-import com.aliyun.oss.OSSException;
 import com.aliyun.oss.model.DownloadFileRequest;
 import com.aliyun.oss.model.DownloadFileResult;
 import lombok.extern.slf4j.Slf4j;
-import org.boss.demo.common_oss.OSSTools;
-
-import java.io.File;
+import org.boss.demo.oss.OSSTools;
 
 @Slf4j
 public class DownloadTestOSS {
